@@ -1,0 +1,32 @@
+[app]
+name = "go-framework"
+debug = true
+url = "127.0.0.1:8080"
+env = "production"
+
+[http]
+port = 8080
+host = "0.0.0.0"
+# 请求超时时间
+timeout = "3s"
+
+[jwt]
+secret = "123456"
+
+[db]
+host = "127.0.0.1"
+port = 3306
+database = "go-framework"
+username = "root"
+password = ""
+auto_migrate = true
+
+[redis]
+host = "127.0.0.1"
+password = ""
+port = 6379
+database = 0
+
+[log]
+level = "info"
+format = "json"

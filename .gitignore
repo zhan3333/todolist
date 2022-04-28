@@ -1,0 +1,8 @@
+.idea/
+.env
+vendor/
+go-framework
+configs/*
+
+!configs/default.toml
+./lgo
